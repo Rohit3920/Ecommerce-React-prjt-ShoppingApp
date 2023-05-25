@@ -1,0 +1,19 @@
+.navbar-com{
+    width: 100%;
+    height: 4em;
+    background-color: aqua;
+
+}
+
+.links{
+    width: 12%;
+    /* border: 1px solid black; */
+    float: right;
+    margin: 15px 5px ;
+}
+
+.links a{
+
+    font-size: 20px;
+    margin: 10px;
+}
