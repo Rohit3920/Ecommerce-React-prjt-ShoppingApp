@@ -1,6 +1,6 @@
 [
   {
-    "id": "1a",
+    "id": 1,
     "name": "Ducky One 2",
     "price": 100,
     "currency": "USD",
@@ -10,7 +10,7 @@
     "categoryId": "fgsa2142fa"
   },
   {
-    "id": "2a",
+    "id": 2,
     "name": "Varmilo Sakura",
     "price": 140,
     "currency": "USD",
@@ -20,7 +20,7 @@
     "categoryId": "fgsa2142fa"
   },
   {
-    "id": "3a",
+    "id": 3,
     "name": "MK Disco",
     "price": 80,
     "currency": "USD",
@@ -30,7 +30,7 @@
     "categoryId": "fgsa2142fa"
   },
   {
-    "id": "4b",
+    "id": 4,
     "name": "Razer Kraken",
     "price": 60,
     "currency": "USD",
@@ -40,7 +40,7 @@
     "categoryId": "xasgy42fa"
   },
   {
-    "id": "5b",
+    "id": 5,
     "name": "HyperX Cloud II",
     "price": 115,
     "currency": "USD",
@@ -50,7 +50,7 @@
     "categoryId": "xasgy42fa"
   },
   {
-    "id": "6b",
+    "id": 6,
     "name": "Sennheiser PC 3 Chat",
     "price": 60,
     "currency": "USD",
