@@ -3,10 +3,12 @@ import './App.css';
 import Home from './Pages/Shop/Shop';
 import Cart from './Pages/Cart/Cart';
 import NavBar from './Component/NavBar';
+import ShopContextProvider from './context/ShopContext';
 
 function App() {
   return (
     <div className="App">
+      <ShopContextProvider>
       <Router>
         <NavBar />
         <Routes>
@@ -15,6 +17,7 @@ function App() {
 
         </Routes>
       </Router>
+      </ShopContextProvider>
     </div>
   );
 }
