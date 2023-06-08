@@ -22,7 +22,12 @@ const ShopContextProvider = (props) => {
         setCartItem((prev) => ({...prev, [itemId]: prev[itemId] - 1}));
     }
 
-    const contextValue = {cartItem, addToCart, removeFromCart}
+    const manualCountCartItem = (newAmount, itemId) =>{
+        setCartItem((prev) => ({...prev, [itemId]: newAmount}));
+
+    }
+
+    const contextValue = {cartItem, addToCart, removeFromCart, manualCountCartItem}
     console.log("ShopContent", cartItem)
 
 
