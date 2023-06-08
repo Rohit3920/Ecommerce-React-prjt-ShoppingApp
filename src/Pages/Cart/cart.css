@@ -40,3 +40,9 @@
   margin: 10px;
   cursor: pointer;
 }
+
+.EmptyCart{
+  color: lightgray;
+  font-size: 100px;
+  margin-top: 15% 
+}
