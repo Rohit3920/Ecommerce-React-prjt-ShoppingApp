@@ -2,10 +2,12 @@ import React, { useContext } from 'react'
 import { ShopContext } from '../context/ShopContext'
 
 function Product(props) {
-    const {id, name, price, thumbnail, currency, inStock, delivery } = props.data
+    const { id, name, price, thumbnail, currency, inStock, delivery } = props.data
     const { addToCart, cartItem } = useContext(ShopContext)
-    
+
     const cartItemsAmount = cartItem[id];
+
+
     return (
         <div className='product'>
             <div className='product-img'>
@@ -29,6 +31,7 @@ function Product(props) {
                     Add To Cart {cartItemsAmount > 0 && <>({cartItemsAmount})</>}
                 </button>
             </div>
+           
         </div>
     )
 }

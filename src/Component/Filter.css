@@ -1,0 +1,22 @@
+.Filter{
+    width: 15%;
+    background-color: lightgray;
+    text-align: left;
+    height: 900px;
+    position: absolute;
+    left: 0;
+    top: 64px;
+}
+.Filter h1{
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+.Filter div {
+    padding: 10px;
+}
+
+.Filter div label{
+    padding:  4px;
+    font-size: 12px;
+}
